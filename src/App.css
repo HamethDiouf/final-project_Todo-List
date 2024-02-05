@@ -169,9 +169,8 @@ button#update{
   margin-left: 13rem;
   background: linear-gradient(to right bottom, #78c1f3, #6aa0c6);
   border: 0;
-  width: 6rem;
   height: 3rem;
-  font-size: 18px;
+  font-size: 16px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-top-left-radius: 0;
@@ -189,9 +188,8 @@ button#cancel{
  color: #fff;
  margin-top: -4.78rem;
  margin-left: 19rem;
- width: 6rem;
  height: 3rem;
- font-size: 18px;
+ font-size: 16px;
  border-top-left-radius: 0;
  border-bottom-left-radius: 0;
 }
@@ -321,7 +319,7 @@ img{
    }
   
    button#cancel{
-    margin-left: rem;
+    margin-left: 20rem;
    }
   
    .taskBg{
@@ -341,15 +339,15 @@ img{
     }
   
     input#updateTask{
-      width: 8rem;
+      width: 10rem;
     }
   
     button#update{
-      margin-left: 4.2rem;
+      margin-left: 7.2rem;
     }
   
     button#cancel{
-      margin-left: 14rem;
+      margin-left: 15rem;
     }
 
     button#add{

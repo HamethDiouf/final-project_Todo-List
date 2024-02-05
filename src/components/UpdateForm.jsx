@@ -5,7 +5,7 @@ const UpdateForm = ({updateData, changeTask, updateTask, cancelTask}) => {
        <div className='row'>
          <div className='col'>
            <input id="updateTask"
-           placeholder="Update task"
+           placeholder="Update your task"
              value={ updateData && updateData.title }
               onChange={ (e) => changeTask(e)}
              className='form-control form-control-lg'
