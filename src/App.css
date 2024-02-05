@@ -17,8 +17,8 @@ body{
 
 .app-wrapper{
   background-color: #fff;
-  min-width: 450px;
-  min-height: 650px;
+  min-width: 200px;
+  min-height: 500px;
   padding: 30px;
   box-sizing: border-box;
   border-radius: 10px;
@@ -36,6 +36,10 @@ body{
   color: #666;
   border: 1px solid #e7e3e3;
   width: 28rem;
+}
+
+.taskBg:hover{
+  transform: translateX(1px);
 }
 
 .taskBg div{
@@ -124,17 +128,14 @@ input#addTask{
 }
 
 input#addTask{
-  width: 24.60rem;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border-right: 0;
 }
 
 input#updateTask{
   width: 15.78rem;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border-right: #fff;
 }
 
 #plus:hover{
@@ -146,7 +147,7 @@ button #plus{
 
 button#add{
   background: transparent; 
-  margin-left: -3.4rem;
+  /* margin-left: -3.4rem; */
   height: 3rem;
   color:  #78c1f3;
   border-color: #78c1f3;
@@ -257,10 +258,6 @@ img{
   margin-top: -4.8rem;
  }
 
- .taskBg{
-  width: 26rem;
- }
- 
  input#addTask{
   width: 22.6rem;
  }
@@ -272,31 +269,19 @@ img{
  }
 
  button#update{
-  margin-left: 13rem;
+  margin-right: 1px;
  }
 
  button#cancel{
-  margin-left: 19rem;
+  margin-right: 1rem;
  }
 
- .taskBg{
-  width: 26rem;
- }
- 
  input#addTask{
   width: 22.6rem;
  }
 }
 
 @media(max-height: 800px){
-  input#addTask{
-    width: 21.6rem;
-    border-right: 0;
-  }
-
-  .taskBg{
-    width: 25rem;
-  }
 
   input#updateTask{
     width: 13rem;
@@ -312,15 +297,7 @@ img{
 }
 
 @media(max-height: 650px){
-  input#addTask{
-    width: 21.6rem;
-    border-right: 0;
-  }
-
-  .taskBg{
-    width: 25rem;
-  }
-
+ 
   input#updateTask{
     width: 13rem;
   }
@@ -334,3 +311,48 @@ img{
   }
 }
 
+@media(max-width: 500px){
+  input#updateTask {
+    width: 14rem;
+   }
+  
+   button#update{
+    margin-left: 13rem;
+   }
+  
+   button#cancel{
+    margin-left: rem;
+   }
+  
+   .taskBg{
+    width: 6rem;
+   }
+  
+  }
+  
+  @media(max-height: 800px){
+    input#addTask{
+      width: 16.58rem;
+     
+    }
+  
+    .taskBg{
+      width: 20rem;
+    }
+  
+    input#updateTask{
+      width: 8rem;
+    }
+  
+    button#update{
+      margin-left: 4.2rem;
+    }
+  
+    button#cancel{
+      margin-left: 14rem;
+    }
+
+    button#add{
+      margin-left: -2rem;
+    }
+}

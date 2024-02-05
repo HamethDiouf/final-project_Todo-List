@@ -74,7 +74,7 @@ function App() {
       <br/>
       <br/>
      <h1 id='title'>Todo-List
-     <img src={'/images/notebook.gif'} alt={'notebook'}/>
+     <img src={'./images/notebook.gif'} alt={'notebook'}/>
      </h1>
      <br/>
 
