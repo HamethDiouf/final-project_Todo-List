@@ -5,7 +5,7 @@ body{
 
 .App {
   text-align: center;
-}
+} 
 
 .container{
   width: 100%;
@@ -35,7 +35,7 @@ body{
   position: relative;
   color: #666;
   border: 1px solid #e7e3e3;
-  width: 28rem;
+  width: 20rem;
 }
 
 .taskBg:hover{
@@ -309,6 +309,31 @@ img{
   }
 }
 
+@media(max-height: 500px){
+
+  input#updateTask{
+    width: 10rem;
+  }
+  .task-container{
+    width: 10rem;
+  }
+}
+
+@media(max-height: 450px){
+
+  input#updateTask{
+    width: 10rem;
+  }
+
+  button#update{
+    margin-right: 2.2rem;
+  }
+
+  button#cancel{
+    margin-right: 2.2rem;
+  }
+}
+
 @media(max-width: 500px){
   input#updateTask {
     width: 14rem;
@@ -327,6 +352,25 @@ img{
    }
   
   }
+
+  @media(max-width: 450px){
+    input#updateTask {
+      width: 14rem;
+     }
+    
+     button#update{
+      margin-left: 13rem;
+     }
+    
+     button#cancel{
+      margin-left: 20rem;
+     }
+    
+     .taskBg{
+      width: 6rem;
+     }
+    
+    }
   
   @media(max-height: 800px){
     input#addTask{
@@ -353,4 +397,58 @@ img{
     button#add{
       margin-left: -2rem;
     }
+}
+
+@media(max-height: 500px){
+  input#addTask{
+    width: 16.58rem;
+   
+  }
+
+  .taskBg{
+    width: 20rem;
+  }
+
+  input#updateTask{
+    width: 10rem;
+  }
+
+  button#update{
+    margin-left: 7.2rem;
+  }
+
+  button#cancel{
+    margin-left: 15rem;
+  }
+
+  button#add{
+    margin-left: -2rem;
+  }
+}
+
+@media(max-height: 450px){
+  input#addTask{
+    width: 16.58rem;
+   
+  }
+
+  .taskBg{
+    width: 20rem;
+  }
+
+  input#updateTask{
+    width: 10rem;
+  }
+
+  button#update{
+    margin-left: 7.2rem;
+  }
+
+  button#cancel{
+    margin-left: 15rem;
+  }
+
+  button#add{
+    margin-left: -2rem;
+  }
 }
