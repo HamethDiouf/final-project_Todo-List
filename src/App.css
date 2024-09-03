@@ -131,7 +131,8 @@ input#addTask{
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-right: none;
-  width: 16.5rem;
+  width: 16.58rem;
+  margin-right: 1.9rem;
 }
 
 input#updateTask{
