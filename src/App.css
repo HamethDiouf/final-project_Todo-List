@@ -130,12 +130,15 @@ input#addTask{
 input#addTask{
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  border-right: none;
+  width: 16.5rem;
 }
 
 input#updateTask{
-  width: 15.78rem;
+  width: 10rem;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  border-right: none;
 }
 
 #plus:hover{
@@ -147,7 +150,7 @@ button #plus{
 
 button#add{
   background: transparent; 
-  /* margin-left: -3.4rem; */
+  margin-left: -3.4rem;
   height: 3rem;
   color:  #78c1f3;
   border-color: #78c1f3;
@@ -166,7 +169,7 @@ button#add:hover{
 
 button#update{
   margin-top: -1.2rem;
-  margin-left: 13rem;
+  margin-left: 5rem;
   background: linear-gradient(to right bottom, #78c1f3, #6aa0c6);
   border: 0;
   height: 3rem;
@@ -187,7 +190,7 @@ button#cancel{
  border: 0;
  color: #fff;
  margin-top: -4.78rem;
- margin-left: 19rem;
+ margin-left: 15rem;
  height: 3rem;
  font-size: 16px;
  border-top-left-radius: 0;
@@ -220,7 +223,7 @@ img{
 
 /* Responsive Todo */
 
-@media(max-width: 900px){
+/* @media(max-width: 900px){
  input#updateTask {
   width: 14rem;
  }
@@ -240,9 +243,9 @@ img{
  input#addTask{
   width: 22.6rem;
  }
-}
+} */
 
-@media(max-width: 1200px){
+/* @media(max-width: 1200px){
  input#updateTask {
   width: 14rem;
  }
@@ -259,27 +262,11 @@ img{
  input#addTask{
   width: 22.6rem;
  }
-}
+} */
 
-@media(max-width: 500px){
- input#updateTask {
-  width: 14rem;
- }
 
- button#update{
-  margin-right: 1px;
- }
 
- button#cancel{
-  margin-right: 1rem;
- }
-
- input#addTask{
-  width: 22.6rem;
- }
-}
-
-@media(max-height: 800px){
+/* @media(max-height: 800px){
 
   input#updateTask{
     width: 13rem;
@@ -292,9 +279,9 @@ img{
   button#cancel{
     margin-right: 2.2rem;
   }
-}
+} */
 
-@media(max-height: 650px){
+/* @media(max-height: 650px){
  
   input#updateTask{
     width: 13rem;
@@ -307,9 +294,9 @@ img{
   button#cancel{
     margin-right: 2.2rem;
   }
-}
+} */
 
-@media(max-height: 500px){
+/* @media(max-height: 500px){
 
   input#updateTask{
     width: 10rem;
@@ -317,43 +304,10 @@ img{
   .task-container{
     width: 10rem;
   }
-}
+} */
 
-@media(max-height: 450px){
 
-  input#updateTask{
-    width: 10rem;
-  }
-
-  button#update{
-    margin-right: 2.2rem;
-  }
-
-  button#cancel{
-    margin-right: 2.2rem;
-  }
-}
-
-@media(max-width: 500px){
-  input#updateTask {
-    width: 14rem;
-   }
-  
-   button#update{
-    margin-left: 13rem;
-   }
-  
-   button#cancel{
-    margin-left: 20rem;
-   }
-  
-   .taskBg{
-    width: 6rem;
-   }
-  
-  }
-
-  @media(max-width: 450px){
+  /* @media(max-width: 450px){
     input#updateTask {
       width: 14rem;
      }
@@ -370,85 +324,32 @@ img{
       width: 6rem;
      }
     
-    }
+    } */
   
-  @media(max-height: 800px){
+  @media(max-width: 500px){
     input#addTask{
       width: 16.58rem;
      
     }
-  
-    .taskBg{
-      width: 20rem;
-    }
-  
-    input#updateTask{
-      width: 10rem;
-    }
-  
-    button#update{
-      margin-left: 7.2rem;
-    }
-  
-    button#cancel{
-      margin-left: 15rem;
-    }
+    input#updateTask {
+      width: 14rem;
+     }
+    
+     button#update{
+      margin-right: 1px;
+     }
+    
+     button#cancel{
+      margin-right: 1rem;
+     }
+    
+    
+     input#addTask{
+      width: 16.58rem;
+    } 
 
-    button#add{
-      margin-left: -2rem;
-    }
 }
 
-@media(max-height: 500px){
-  input#addTask{
-    width: 16.58rem;
+
    
-  }
-
-  .taskBg{
-    width: 20rem;
-  }
-
-  input#updateTask{
-    width: 10rem;
-  }
-
-  button#update{
-    margin-left: 7.2rem;
-  }
-
-  button#cancel{
-    margin-left: 15rem;
-  }
-
-  button#add{
-    margin-left: -2rem;
-  }
-}
-
-@media(max-height: 450px){
-  input#addTask{
-    width: 16.58rem;
-   
-  }
-
-  .taskBg{
-    width: 20rem;
-  }
-
-  input#updateTask{
-    width: 10rem;
-  }
-
-  button#update{
-    margin-left: 7.2rem;
-  }
-
-  button#cancel{
-    margin-left: 15rem;
-  }
-
-  button#add{
-    margin-left: -2rem;
-  }
-}
+ 
