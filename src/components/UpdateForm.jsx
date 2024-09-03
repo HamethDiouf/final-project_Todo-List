@@ -7,7 +7,7 @@ const UpdateForm = ({updateData, changeTask, updateTask, cancelTask}) => {
            <input id="updateTask"
            placeholder="Update your task"
              value={ updateData && updateData.title }
-              onChange={ (e) => changeTask(e)}
+              onChange={ (e) => changeTask(e)} 
              className='form-control form-control-lg'
            />
          </div>

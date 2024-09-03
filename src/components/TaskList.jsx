@@ -6,7 +6,7 @@ const TaskList = ({toDo, markDone, setUpdateData, deleteTask}) => {
     return (  
         <div className="todo">
              {toDo && toDo
-     .sort((a, b) => a.id ? 1 : -1)
+     .sort((a, b) => a.id ? 1 : -1) 
      .map( (task, index) =>{
       return (
       <React.Fragment key={task.id}>

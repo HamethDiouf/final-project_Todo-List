@@ -4,7 +4,7 @@ const TaskForm = ({newTask, setNewTask, addTask}) => {
     return ( 
         <div className="add-task">
              {/* Add Task */}
-     <div className='row'>
+     <div className='row'> 
        <div className='col'>
          <input id="addTask"
          placeholder="Add your task"

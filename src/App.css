@@ -351,6 +351,26 @@ img{
 
 }
 
+@media(max-width: 400px) {
+  input#addTask{
+    /* background: red; */
+    width: 15.3rem;
+  }
+  input#updateTask {
+    /* background: grey; */
+    width: 9rem;
+  }
+  button#update{
+    margin-right: 2rem;
+  }
+  button#cancel{
+    margin-left: 13.5rem;
+  }
+  .taskBg{
+    width: 18.7rem;
+  }
+}
+
 
    
  
