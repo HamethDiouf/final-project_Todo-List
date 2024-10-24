@@ -8,7 +8,7 @@ const UpdateForm = ({updateData, changeTask, updateTask, cancelTask}) => {
            placeholder="Update your task"
              value={ updateData && updateData.title }
               onChange={ (e) => changeTask(e)} 
-             className='form-control form-control-lg'
+             className='form-control form-control-lg' 
            />
          </div>
          <div className='col-auto' id="update-content">

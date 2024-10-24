@@ -12,7 +12,7 @@ function App() {
      { id: 1, title: "Task 1", status:false },
      { id: 2, title: "Task 2", status:false },
   ]);
-
+ 
   /* Add a new task to the list */
   const [newTask, setNewTask] = useState('');
   const [updateData, setUpdateData] = useState('')

@@ -5,7 +5,7 @@ import { faCircleCheck, faPen, faTrashCan } from '@fortawesome/free-solid-svg-ic
 const TaskList = ({toDo, markDone, setUpdateData, deleteTask}) => {
     return (  
         <div className="todo">
-             {toDo && toDo
+             {toDo && toDo 
      .sort((a, b) => a.id ? 1 : -1) 
      .map( (task, index) =>{
       return (
